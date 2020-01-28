@@ -6,6 +6,9 @@ inputs:
     description: 'milli seconds to wait'
     required: false
     default: 2000
+ branding:
+  icon: 'award'  
+  color: 'green'
 runs:
   using: 'node12'
   main: 'dist/index.js'
